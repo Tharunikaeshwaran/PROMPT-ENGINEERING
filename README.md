@@ -72,6 +72,7 @@ Generative AI is a technology that learns patterns from existing data and uses t
 For example, a student can enter the prompt, “Create a peaceful study room with a student sitting near a window.” An AI image-generation model can create a new picture based on that description.
 
 Generative AI is useful because it supports creativity, saves time and helps people complete tasks more efficiently.
+
 3. Types of Generative AI Models
 
 Generative Adversarial Networks (GANs)
@@ -100,6 +101,7 @@ Examples include GPT, BERT and LLaMA.
 LLMs process text in smaller units called tokens. Many language models generate text by predicting likely next tokens based on the context.
 
 Example: A student can ask an LLM to explain a C program in simple words and receive a step-by-step explanation.
+
 5. Architecture of LLMs
 Many modern LLMs use the Transformer architecture, which uses a mechanism called self-attention to understand relationships between different tokens in a sequence.
 
@@ -108,10 +110,12 @@ The main steps include converting text into tokens, turning tokens into numerica
 GPT-style models generally use a decoder-based architecture to generate text. BERT uses an encoder-based architecture and is designed mainly for understanding text, classification and similar tasks.
 
 Example: GPT can generate a paragraph about climate change, while BERT can classify a review as positive or negative.
+
 6.Diffusion Models
 Diffusion models are generative models that learn to reverse a gradual process of adding noise to data. During training, noise is added to examples, and the model learns how to estimate and remove that noise. During generation, the model begins with a noisy representation and gradually refines it into a meaningful output. These models have become important in image generation and are also used in audio and video generation. Their ability to produce detailed results makes them useful for creative design, advertising, image editing and visual effects. However, generating high-quality outputs may require several computational steps.
 <img width="721" height="697" alt="image" src="https://github.com/user-attachments/assets/ee6ea811-50c5-4c8b-bba5-45a11e8699f5" />
 Example: A diffusion model can generate an illustration of a futuristic library from a text prompt. It starts with noise and gradually develops the building, trees, lighting and surrounding environment.
+
 7. Applications of Generative AI
 Education: Explaining lessons, preparing summaries, creating quizzes and supporting personalised learning.
 
@@ -122,12 +126,14 @@ Content Creation: Generating illustrations, stories, presentation ideas, adverti
 Healthcare: Assisting with document summaries, medical information organisation and administrative tasks under professional supervision.
 
 Generative AI is also used in customer service, business communication, research and data augmentation. Its output should be checked before being used in important decisions.
+
 8. Limitations and Ethical Considerations
 Although Generative AI provides many benefits, it also has limitations. It may produce incorrect information, reflect biases in its training data or generate misleading content. Users must also consider privacy, copyright, security and the energy required to train and operate large models.
 
 For example, an AI tool may generate a false reference for a college assignment. Students should verify information using reliable sources rather than accepting every AI response as correct.
 
 Responsible AI use requires human supervision, fact-checking, data protection and fair treatment of users.
+
 9. Impact of Scaling in LLMs
 Scaling refers to increasing the model size, training data or computing resources used to develop an AI model. In many cases, scaling can improve language understanding, text generation and reasoning performance. However, larger models can also require more computing power, money and energy.
 Feature	GPT-3 (2020)	GPT-4 (2023)
@@ -136,6 +142,7 @@ Capabilities	Text generation and few-shot learning	Improved capabilities across 
 Limitation	Can produce incorrect answers	Can also produce incorrect answers
 
 Scaling does not guarantee perfect results. Model design, training quality, evaluation and safety measures are also important.
+
 10. Future Trends in Generative AI
 Generative AI is expected to develop in several areas. More efficient models may reduce computing costs, while multimodal AI will improve the ability to work with text, images, audio and video together. AI agents may assist with multi-step tasks, and new safety methods may help reduce harmful or inaccurate outputs.
 
